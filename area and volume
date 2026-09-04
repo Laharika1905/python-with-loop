@@ -1,0 +1,16 @@
+class Rectangle:
+    def area(self, length, breadth):
+        print(length * breadth)
+
+    def volume(self, length, breadth, height):
+        print(length * breadth * height)
+
+
+length = int(input("Length = "))
+breadth = int(input("Breadth = "))
+height = int(input("Height = "))
+
+rec1 = Rectangle()
+
+rec1.area(length, breadth)
+rec1.volume(length, breadth, height)
