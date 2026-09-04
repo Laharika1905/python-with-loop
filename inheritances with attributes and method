@@ -1,0 +1,20 @@
+class SportsStudent:
+    college = "KPRIT"
+
+    def practice(self):
+        print("Sports student is practicing")
+
+
+class Exam(SportsStudent):
+    hallticket_no = "BF"
+
+    def write_exam(self):
+        print(self.hallticket_no)
+
+
+D = Exam()
+
+print(D.college)
+D.practice()
+print(D.hallticket_no)
+D.write_exam()
