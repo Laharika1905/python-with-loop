@@ -1,0 +1,22 @@
+class Account:
+    def accountnumber(self):
+        print("account no")
+
+
+class Saving(Account):
+    def withdraw(self):
+        print("saving account")
+
+
+class CurrentAccount(Account):
+    def withdraw(self):
+        print("money withdraw")
+
+
+s1 = Saving()
+s1.accountnumber()
+s1.withdraw()
+
+w1 = CurrentAccount()
+w1.withdraw()
+w1.accountnumber()
