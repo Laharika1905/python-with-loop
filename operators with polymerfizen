@@ -1,4 +1,0 @@
-print(5 + 10)
-print("hellow" + "kprit")
-print(5 + 10)
-print("hellow" * 3)
